@@ -1,42 +1,10 @@
-# Effekt Template
+> [!NOTE]
+> This is a community-maintained fork of a MIT-licensed student project in the *Effective Programming with Effects* course in winter semester 2025/2026.
+> Be warned that this is not an officially endorsed project, the code in this repository may be not idiomatic Effekt.
+> 
+> The original repository is https://github.com/christiNnnNNNn/Turn-based-Strategy-Name-in-Effect
 
-> [!WARNING]
-> This is a work-in-progress, feel free to contribute!
-
-This template provides a starting point for Effekt projects.
-
-## Table of contents
-
-- [First steps](#first-steps)
-- [Useful commands](#useful-commands)
-  - [Effekt commands](#effekt-commands)
-  - [Nix-related commands](#nix-related-commands)
-- [Example projects](#example-projects-using-this-template)
-- [Repository structure](#repository-structure)
-- [CI](#ci)
-
----
-
-## First steps
-
-After using this template, follow these steps to set up your project:
-
-1. Set up your development environment:
-   - Clone this repository locally.
-   - Open it in VSCode.
-   - Install the Effekt VSCode extension offered in the pop-up in the bottom right.
-
-2. Customize the project:
-   - Open `flake.nix` and update the project name and other relevant values (follow the comments).
-   - Push your `flake.nix` file after the changes and see if the CI agrees.
-
-3. Set-up auto-update CI in order to get weekly PRs on Tuesday which update the Effekt version in CI:
-   - Go to Settings -> Actions -> General:
-     - and set "Workflow permissions" to "Read and write permissions"
-     - and check "Allow GitHub Actions to create and approve pull requests"    
-   - See the [CI](#ci) section for more details
-
-3. Replace this `README` with your own!
+# Turn-based-Strategy-Name
 
 ## Useful commands
 
